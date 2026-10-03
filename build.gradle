@@ -17,10 +17,10 @@ buildscript {
 plugins {
 	id 'base'
 	id 'idea'
-	id 'org.ajoberstar.grgit' version '5.3.0'
+	id 'org.ajoberstar.grgit' version '5.3.3'
 	id 'io.spring.nohttp' version '0.0.11'
 	id 'io.spring.dependency-management' version '1.1.7' apply false
-	id 'com.github.spotbugs' version '6.0.27'
+	id 'com.github.spotbugs' version '6.0.28'
 	id 'io.freefair.aggregate-javadoc' version '8.10.2'
 }
 
@@ -53,7 +53,7 @@ ext {
 	assertjVersion = '3.25.3'
 	awaitilityVersion = '4.2.2'
 	hamcrestVersion = '3.0'
-	hibernateValidationVersion = '8.0.2.Final'
+	hibernateValidationVersion = '8.0.5.Final'
 	jacksonBomVersion = '2.18.2'
 	jaywayJsonPathVersion = '2.9.0'
 	junit4Version = '4.13.2'
@@ -67,7 +67,7 @@ ext {
 	mockitoVersion = '5.14.2'
 	reactorVersion = '2024.0.1'
 	scalaVersion = '2.13'
-	springBootVersion = '3.3.7' // docs module
+	springBootVersion = '3.3.13' // docs module
 	springDataVersion = '2024.1.1'
 	springRetryVersion = '2.0.11'
 	springVersion = '6.2.1'
